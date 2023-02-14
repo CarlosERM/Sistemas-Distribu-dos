@@ -1,0 +1,7 @@
+AUTH moto@gmail.com
+root
+PROFILE
+CREATE kayden kayden@gmail.com 27
+OUT
+AUTH kayden@gmail.com
+root
