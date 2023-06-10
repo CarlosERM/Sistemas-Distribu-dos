@@ -4,12 +4,13 @@
   "description": "Aula sobre nodejs do xandão",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "Carlos Eduardo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
   },
   "devDependencies": {
     "dotenv": "^16.0.3",

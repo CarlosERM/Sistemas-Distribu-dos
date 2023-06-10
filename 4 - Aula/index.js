@@ -1,9 +1,5 @@
-require("dotenv").config();
-require("colors");
-
-const app = require("./config/express");
 const connectDB = require("./config/db");
-
+const app = require("./config/express");
 const start = async () => {
   try {
     await connectDB(process.env.ME_CONFIG_MONGODB_URL);

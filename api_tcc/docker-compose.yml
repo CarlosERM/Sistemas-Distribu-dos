@@ -1,0 +1,39 @@
+version: "1,0.0"
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${DB_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - ${DB_PORT}:${DB_PORT}
+    volumes:
+      - mongo-db-volume:/data/db
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - ${MONGO_EXPRESS_PORT}:${MONGO_EXPRESS_PORT}
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://${DB_USERNAME}:${DB_PASSWORD}@mongo:${DB_PORT}/
+      ME_CONFIG_MONGODB_ADMINUSERNAME: ${DB_USERNAME}
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ${DB_PASSWORD}
+    depends_on:
+      - mongo
+
+  tcc_api:
+    build:
+      context: .
+    ports:
+      - ${API_TCC_PORT}:${API_TCC_PORT}
+    volumes:
+      - ./:/api_tcc
+    command: npm run devStart
+    depends_on:
+      - mongo
+      - mongo-express
+volumes:
+  mongo-db-volume:
