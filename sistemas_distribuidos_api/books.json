@@ -1,0 +1,37 @@
+[
+  {
+    "titulo": "As Viagens de Gulliver",
+    "autor": "Jonathan Swift",
+    "descricao": "As Viagens de Gulliver, originalmente Viagens a diversos países remotos do mundo, em quatro partes, por Lemuel Gulliver, a princípio cirurgião e mais tarde capitão de vários navios, é um romance satírico do escritor irlandês Jonathan Swift.",
+    "data": "1726-10-28",
+    "paginas": "448"
+  },
+  {
+    "titulo": "Odisseia",
+    "autor": "Homero",
+    "descricao": "Os mais de doze mil versos do grande épico de Homero em uma tradução premiada do helenista português Frederico Lourenço. Introdução de Bernard Knox, um dos maiores especialistas americanos em estudos clássicos. A narrativa do regresso de Ulisses a sua terra natal é uma obra de importância sem paralelos na tradição literária ocidental. ",
+    "data": "800-01-01",
+    "paginas": "576"
+  },
+  {
+    "titulo": "Ilíada",
+    "autor": "Homero",
+    "descricao": "O Livro fundador da literatura ocidental que narra a tragédia de Aquiles e a Guerra de Troia em uma nova tradução do helenista português Frederico Lourenço. Primeiro livro da literatura ocidental, a Ilíada parece se tratar, pelo título, apenas de um breve incidente ocorrido no cerco dos gregos à cidade troiana de Ílion, a crônica de aproximadamente cinquenta dias de uma guerra que durou dez anos.",
+    "data": "800-01-01",
+    "paginas": "720"
+  },
+  {
+    "titulo": "Hamlet",
+    "autor": "William Shakespeare",
+    "descricao": "Um jovem príncipe se reúne com o fantasma de seu pai, que alega que seu próprio irmão, agora casado com sua viúva, o assassinou. O príncipe cria um plano para testar a veracidade de tal acusação, forjando uma brutal loucura para traçar sua vingança. Mas sua aparente insanidade logo começa a causar estragos - para culpados e inocentes. ",
+    "data": "1599-01-01",
+    "paginas": "320"
+  },
+  {
+    "titulo": "Romeu e Julieta",
+    "autor": "William Shakespeare",
+    "descricao": "Há muito tempo duas famílias banham em sangue as ruas de Verona. Enquanto isso, na penumbra das madrugadas, ardem as brasas de um amor secreto. Romeu, filho dos Montéquio, e Julieta, herdeira dos Capuleto, desafiam a rixa familiar e sonham com um impossível futuro, longe da violência e da loucura.",
+    "data": "1597-01-01",
+    "paginas": "248"
+  }
+]
